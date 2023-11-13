@@ -1,26 +1,38 @@
-# Quasar App (spa)
+# Quasar App (SPA)
 
-A Quasar Framework app
+This is a Quasar Framework single-page application (SPA) template.
 
-## Install the dependencies
+## Installation
+
+Before getting started, ensure you have [Node.js](https://nodejs.org/) installed on your machine. Then, navigate to the project directory and install the dependencies:
+
 ```bash
 npm install
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
+## Development Mode
+
+Run the app in development mode to benefit from hot-code reloading, error reporting, and other development features:
+
 ```bash
 quasar dev
 ```
 
-### Lint the files
+## Linting
+
+To lint the files and ensure code quality, use the following command:
+
 ```bash
 npm run lint
 ```
 
-### Build the app for production
+## Production Build
+
+Build the application for production by running the following command:
+
 ```bash
 quasar build
 ```
 
-### Customize the configuration
-See [Configuring quasar.conf.js](https://v2.quasar.dev/quasar-cli/quasar-conf-js).
+The production-ready files will be generated in the `dist` directory.
+
